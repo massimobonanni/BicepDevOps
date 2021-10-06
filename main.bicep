@@ -8,7 +8,6 @@ resource mainstorage 'Microsoft.Storage/storageAccounts@2021-02-01' = {
   kind: 'StorageV2'
   sku: {
     name: 'Standard_LRS'
-    tier: 'Standard'
   }
   properties: {
     minimumTlsVersion: 'TLS1_2'
